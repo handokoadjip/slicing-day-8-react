@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+html,
+body {
+	overflow-x: hidden
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F5F5F5;
+	color: #262626
+}
+
+a {
+	color: #262626 !important;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0a0a0a;
+}
+
+::selection {
+	color: #fff;
+	background: #262626;
+}
+
+/* 
+------------------------------------------- 
+	UTILITY 
+-------------------------------------------
+*/
+.text-fade-black-1 {
+	color: rgba(0, 0, 0, .5) !important;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.leading-tight {
+	line-height: 1.25;
+}
+
+.leading-snug {
+	line-height: 1.375;
+}
+
+.leading-normal {
+	line-height: 1.5;
+}
+
+.leading-relaxed {
+	line-height: 1.625;
+}
+
+.leading-loose {
+	line-height: 2;
+}
+
+.v-invisible {
+	visibility: hidden;
+}
+
+.ls-8px {
+	letter-spacing: 8px;
+}
+
+.ls-5px {
+	letter-spacing: 5px;
+}
+
+.fs-7 {
+	font-size: 0.75rem;
+}
+
+.fw-bolder {
+	font-weight: 900 !important;
+}
+
+.fw-medium {
+	font-weight: 600;
+}
+
+.p-8 {
+	padding: 7.5rem;
+}
+
+.py-13 {
+	padding-top: 15rem;
+	padding-bottom: 15rem;
+}
+
+.pe-6 {
+	padding-right: 4.5rem;
+}
+
+.mp-0 {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.z-999 {
+	z-index: 999;
+}
+
+.border-bottom-fade-black-1-2px {
+	border-bottom: 2px solid rgba(0, 0, 0, .5);
+}
+
+.border-top-fade-black-1-2px {
+	border-top: 2px solid rgba(0, 0, 0, .5);
+}
+
+.border-top-fade-black-2-2px {
+	border-top: 2px solid rgba(0, 0, 0, .3);
+}
+
+.grayscale {
+	filter: grayscale(1);
+}
+
+/* 
+------------------------------------------- 
+	NAVBAR 
+-------------------------------------------
+*/
+.navbar.fixed-top.scrolled {
+	background-color: rgba(255, 255, 255, 0.8) !important;
+	transition: background-color 200ms linear;
+}
+
+.text-navbar {
+	font-size: 5rem;
+}
+
+/* 
+------------------------------------------- 
+	SECTION 
+-------------------------------------------
+*/
+
+.h-image-400px {
+	height: 400px;
+	object-fit: cover;
+}
+
+
+/* 
+------------------------------------------- 
+	BREAKPOINT
+-------------------------------------------
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+	/* 
+	------------------------------------------- 
+		NAVBAR 
+	-------------------------------------------
+	*/
+	.text-navbar {
+		font-size: 6rem;
+	}
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
