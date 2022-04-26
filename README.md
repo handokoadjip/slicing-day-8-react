@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Day 8: Process
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://github.com/handokoadjip/slicing-day-8-react)
+[![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/handokoadjip/slicing-day-8-react)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/handokoadjip/slicing-day-8-react/fork)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Available Scripts
+Day 8, I will show you the slicing to react of the beautiful designs made by https://pin.it/12icZVi.
 
-In the project directory, you can run:
+For those who want to contribute, just fork or download as usual!
 
-### `npm start`
+## Requirements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Browser
+- Of course with the internet
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+Clone the repository
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    git clone git@github.com:handokoadjipangestu/slicing-day-8-react.git
 
-### `npm run build`
+## Usage example
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Home](https://bebaskripsi.000webhostapp.com/slicing-day-8/home.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+_For more examples and usage, please contact [Handoko Adji Pangestu](https://www.instagram.com/handokoadp/)._
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Development setup
 
-### `npm run eject`
+Switch to the repo folder
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    cd slicing-day-8-react
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install all the dependencies using npm or yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    npm install or yarn install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Start the local development server
 
-## Learn More
+    npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can now access the server at http://localhost:3001
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Release History
 
-### Code Splitting
+- 0.0.1
+  - Work in progress
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Meta
 
-### Analyzing the Bundle Size
+Handoko Adji Pangestu – [@handokoadp](https://www.instagram.com/handokoadp/) – handokoadjipangestu@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Distributed under the MIT license. See `LICENSE` for more information.
 
-### Making a Progressive Web App
+[https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork it (<https://github.com/handokoadjip/slicing-day-8-react/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
